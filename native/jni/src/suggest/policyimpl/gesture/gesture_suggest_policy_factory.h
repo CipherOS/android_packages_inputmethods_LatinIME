@@ -18,22 +18,27 @@
 #define LATINIME_GESTURE_SUGGEST_POLICY_FACTORY_H
 
 #include "defines.h"
-#include "gesture_suggest_policy.h"
 
 namespace latinime {
 
 class SuggestPolicy;
 
-    class SuggestPolicy;
+class GestureSuggestPolicyFactory {
+ public:
+    static void setGestureSuggestPolicyFactoryMethod(const SuggestPolicy *(*factoryMethod)()) {
+        sGestureSuggestFactoryMethod = factoryMethod;
+    }
 
-    class GestureSuggestPolicyFactory {
-    public:
-        static const SuggestPolicy *getGestureSuggestPolicy() {
-            return GestureSuggestPolicy::getInstance();
+    static const SuggestPolicy *getGestureSuggestPolicy() {
+        if (!sGestureSuggestFactoryMethod) {
+            return 0;
         }
+        return sGestureSuggestFactoryMethod();
+    }
 
-    private:
-        DISALLOW_COPY_AND_ASSIGN(GestureSuggestPolicyFactory);
-    };
+ private:
+    DISALLOW_COPY_AND_ASSIGN(GestureSuggestPolicyFactory);
+    static const SuggestPolicy *(*sGestureSuggestFactoryMethod)();
+};
 } // namespace latinime
 #endif // LATINIME_GESTURE_SUGGEST_POLICY_FACTORY_H
