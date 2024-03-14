@@ -19,7 +19,7 @@ package com.android.inputmethod.latin.utils;
 import android.view.inputmethod.InputMethodSubtype;
 
 import com.android.inputmethod.latin.DictionaryFacilitator;
-import com.android.inputmethod.latin.RichInputMethodManager;
+import com.cipheros.keyboard.RichInputMethodManager;
 import com.android.inputmethod.latin.SuggestedWords;
 import com.android.inputmethod.latin.settings.SettingsValues;
 

@@ -16,7 +16,7 @@
 
 package com.android.inputmethod.latin.userdictionary;
 
-import com.android.inputmethod.latin.R;
+import com.cipheros.keyboard.R;
 import com.android.inputmethod.latin.userdictionary.UserDictionaryAddWordContents.LocaleRenderer;
 import com.android.inputmethod.latin.userdictionary.UserDictionaryLocalePicker.LocationChangedListener;
 

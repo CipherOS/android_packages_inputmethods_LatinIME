@@ -27,8 +27,8 @@ import android.view.inputmethod.EditorInfo;
 
 import com.android.inputmethod.compat.AppWorkaroundsUtils;
 import com.android.inputmethod.latin.InputAttributes;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.RichInputMethodManager;
+import com.cipheros.keyboard.R;
+import com.cipheros.keyboard.RichInputMethodManager;
 import com.android.inputmethod.latin.utils.AsyncResultHolder;
 import com.android.inputmethod.latin.utils.ResourceUtils;
 import com.android.inputmethod.latin.utils.TargetPackageInfoGetterTask;

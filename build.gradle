@@ -29,7 +29,7 @@ android {
         targetSdkVersion 34
         versionName "1.0"
 
-        applicationId 'com.android.inputmethod.latin'
+        applicationId 'com.cipheros.keyboard'
         testApplicationId 'com.android.inputmethod.latin.tests'
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = false

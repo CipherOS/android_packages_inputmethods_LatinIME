@@ -18,7 +18,7 @@ package com.android.inputmethod.latin.utils;
 
 import android.view.inputmethod.InputMethodSubtype;
 
-import com.android.inputmethod.latin.RichInputMethodSubtype;
+import com.cipheros.keyboard.RichInputMethodSubtype;
 
 import java.util.Collections;
 import java.util.List;

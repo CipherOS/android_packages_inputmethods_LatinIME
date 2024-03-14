@@ -21,8 +21,8 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceFragment;
 import android.view.inputmethod.InputMethodSubtype;
 
-import com.android.inputmethod.latin.RichInputMethodSubtype;
-import com.android.inputmethod.latin.RichInputMethodManager;
+import com.cipheros.keyboard.RichInputMethodSubtype;
+import com.cipheros.keyboard.RichInputMethodManager;
 
 import javax.annotation.Nonnull;
 

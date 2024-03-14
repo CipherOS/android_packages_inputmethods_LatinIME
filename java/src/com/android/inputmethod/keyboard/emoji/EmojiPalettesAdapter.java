@@ -26,7 +26,7 @@ import android.view.ViewGroup;
 import com.android.inputmethod.keyboard.Key;
 import com.android.inputmethod.keyboard.Keyboard;
 import com.android.inputmethod.keyboard.KeyboardView;
-import com.android.inputmethod.latin.R;
+import com.cipheros.keyboard.R;
 
 final class EmojiPalettesAdapter extends RecyclerView.Adapter<EmojiPalettesAdapter.ViewHolder> {
     private static final String TAG = EmojiPalettesAdapter.class.getSimpleName();

@@ -21,7 +21,7 @@ import androidx.viewpager2.widget.ViewPager2;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.android.inputmethod.latin.R;
+import com.cipheros.keyboard.R;
 import com.android.inputmethod.latin.utils.ResourceUtils;
 
 final class EmojiLayoutParams {
