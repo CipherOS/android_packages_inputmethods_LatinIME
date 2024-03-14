@@ -38,7 +38,7 @@ import android.view.inputmethod.InputMethodSubtype;
 import android.widget.Toast;
 
 import com.cipheros.keyboard.R;
-import com.cipheros.keyboard.RichInputMethodManager;
+import com.android.inputmethod.latin.RichInputMethodManager;
 import com.android.inputmethod.latin.utils.AdditionalSubtypeUtils;
 import com.android.inputmethod.latin.utils.DialogUtils;
 import com.android.inputmethod.latin.utils.IntentUtils;

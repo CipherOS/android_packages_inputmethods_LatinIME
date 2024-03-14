@@ -25,7 +25,7 @@ import android.preference.Preference;
 
 import com.android.inputmethod.latin.AudioAndHapticFeedbackManager;
 import com.cipheros.keyboard.R;
-import com.cipheros.keyboard.RichInputMethodManager;
+import com.android.inputmethod.latin.RichInputMethodManager;
 
 /**
  * "Preferences" settings sub screen.

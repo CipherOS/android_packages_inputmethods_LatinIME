@@ -39,7 +39,7 @@ import com.android.inputmethod.latin.DictionaryFacilitator;
 import com.android.inputmethod.latin.LastComposedWord;
 import com.android.inputmethod.latin.LatinIME;
 import com.android.inputmethod.latin.NgramContext;
-import com.cipheros.keyboard.RichInputConnection;
+import com.android.inputmethod.latin.RichInputConnection;
 import com.android.inputmethod.latin.Suggest;
 import com.android.inputmethod.latin.Suggest.OnGetSuggestedWordsCallback;
 import com.android.inputmethod.latin.SuggestedWords;

@@ -29,7 +29,7 @@ import com.android.inputmethod.dictionarypack.UpdateHandler;
 import com.android.inputmethod.latin.AssetFileAddress;
 import com.android.inputmethod.latin.BinaryDictionaryGetter;
 import com.cipheros.keyboard.R;
-import com.cipheros.keyboard.RichInputMethodManager;
+import com.android.inputmethod.latin.RichInputMethodManager;
 import com.android.inputmethod.latin.common.FileUtils;
 import com.android.inputmethod.latin.common.LocaleUtils;
 import com.android.inputmethod.latin.define.DecoderSpecificConstants;

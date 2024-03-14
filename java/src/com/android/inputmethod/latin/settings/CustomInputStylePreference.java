@@ -35,7 +35,7 @@ import android.widget.SpinnerAdapter;
 import com.android.inputmethod.compat.InputMethodSubtypeCompatUtils;
 import com.android.inputmethod.compat.ViewCompatUtils;
 import com.cipheros.keyboard.R;
-import com.cipheros.keyboard.RichInputMethodManager;
+import com.android.inputmethod.latin.RichInputMethodManager;
 import com.android.inputmethod.latin.utils.AdditionalSubtypeUtils;
 import com.android.inputmethod.latin.utils.SubtypeLocaleUtils;
 

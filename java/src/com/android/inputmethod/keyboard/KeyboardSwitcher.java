@@ -36,7 +36,7 @@ import com.android.inputmethod.keyboard.internal.KeyboardTextsSet;
 import com.android.inputmethod.latin.InputView;
 import com.android.inputmethod.latin.LatinIME;
 import com.cipheros.keyboard.R;
-import com.cipheros.keyboard.RichInputMethodManager;
+import com.android.inputmethod.latin.RichInputMethodManager;
 import com.android.inputmethod.latin.WordComposer;
 import com.android.inputmethod.latin.define.ProductionFlags;
 import com.android.inputmethod.latin.settings.Settings;
