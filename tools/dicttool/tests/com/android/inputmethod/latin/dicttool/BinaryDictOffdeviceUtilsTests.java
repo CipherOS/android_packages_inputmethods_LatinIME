@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.dicttool;
+package com.cipheros.inputmethod.latin.dicttool;
 
-import com.android.inputmethod.latin.common.CodePointUtils;
-import com.android.inputmethod.latin.dicttool.BinaryDictOffdeviceUtils;
-import com.android.inputmethod.latin.dicttool.Compress;
-import com.android.inputmethod.latin.dicttool.Crypt;
-import com.android.inputmethod.latin.dicttool.BinaryDictOffdeviceUtils.DecoderChainSpec;
-import com.android.inputmethod.latin.makedict.BinaryDictIOUtils;
-import com.android.inputmethod.latin.makedict.BinaryDictUtils;
-import com.android.inputmethod.latin.makedict.DictDecoder;
-import com.android.inputmethod.latin.makedict.DictEncoder;
-import com.android.inputmethod.latin.makedict.DictionaryHeader;
-import com.android.inputmethod.latin.makedict.FormatSpec;
-import com.android.inputmethod.latin.makedict.FormatSpec.DictionaryOptions;
-import com.android.inputmethod.latin.makedict.FormatSpec.FormatOptions;
-import com.android.inputmethod.latin.makedict.FusionDictionary;
-import com.android.inputmethod.latin.makedict.FusionDictionary.PtNodeArray;
-import com.android.inputmethod.latin.makedict.ProbabilityInfo;
-import com.android.inputmethod.latin.makedict.UnsupportedFormatException;
-import com.android.inputmethod.latin.makedict.Ver2DictEncoder;
+import com.cipheros.inputmethod.latin.common.CodePointUtils;
+import com.cipheros.inputmethod.latin.dicttool.BinaryDictOffdeviceUtils;
+import com.cipheros.inputmethod.latin.dicttool.Compress;
+import com.cipheros.inputmethod.latin.dicttool.Crypt;
+import com.cipheros.inputmethod.latin.dicttool.BinaryDictOffdeviceUtils.DecoderChainSpec;
+import com.cipheros.inputmethod.latin.makedict.BinaryDictIOUtils;
+import com.cipheros.inputmethod.latin.makedict.BinaryDictUtils;
+import com.cipheros.inputmethod.latin.makedict.DictDecoder;
+import com.cipheros.inputmethod.latin.makedict.DictEncoder;
+import com.cipheros.inputmethod.latin.makedict.DictionaryHeader;
+import com.cipheros.inputmethod.latin.makedict.FormatSpec;
+import com.cipheros.inputmethod.latin.makedict.FormatSpec.DictionaryOptions;
+import com.cipheros.inputmethod.latin.makedict.FormatSpec.FormatOptions;
+import com.cipheros.inputmethod.latin.makedict.FusionDictionary;
+import com.cipheros.inputmethod.latin.makedict.FusionDictionary.PtNodeArray;
+import com.cipheros.inputmethod.latin.makedict.ProbabilityInfo;
+import com.cipheros.inputmethod.latin.makedict.UnsupportedFormatException;
+import com.cipheros.inputmethod.latin.makedict.Ver2DictEncoder;
 
 import junit.framework.TestCase;
 

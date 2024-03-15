@@ -14,12 +14,12 @@
  * the License.
  */
 
-package com.android.inputmethod.latin.dicttool;
+package com.cipheros.inputmethod.latin.dicttool;
 
-import com.android.inputmethod.latin.common.FileUtils;
-import com.android.inputmethod.latin.makedict.BinaryDictDecoderEncoderTests;
-import com.android.inputmethod.latin.makedict.BinaryDictEncoderFlattenTreeTests;
-import com.android.inputmethod.latin.makedict.FusionDictionaryTest;
+import com.cipheros.inputmethod.latin.common.FileUtils;
+import com.cipheros.inputmethod.latin.makedict.BinaryDictDecoderEncoderTests;
+import com.cipheros.inputmethod.latin.makedict.BinaryDictEncoderFlattenTreeTests;
+import com.cipheros.inputmethod.latin.makedict.FusionDictionaryTest;
 
 import java.io.File;
 import java.io.IOException;

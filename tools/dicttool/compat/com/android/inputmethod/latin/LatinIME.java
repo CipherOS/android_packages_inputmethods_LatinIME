@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package com.cipheros.inputmethod.latin;
 
 public class LatinIME {
 }

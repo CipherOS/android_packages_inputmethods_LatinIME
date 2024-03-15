@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard.tools;
+package com.cipheros.inputmethod.keyboard.tools;
 
 public class StringResource {
     public final String mName;

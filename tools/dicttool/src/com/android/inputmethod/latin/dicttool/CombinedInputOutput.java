@@ -14,16 +14,16 @@
  * the License.
  */
 
-package com.android.inputmethod.latin.dicttool;
+package com.cipheros.inputmethod.latin.dicttool;
 
-import com.android.inputmethod.latin.makedict.FormatSpec;
-import com.android.inputmethod.latin.makedict.FormatSpec.DictionaryOptions;
-import com.android.inputmethod.latin.makedict.FusionDictionary;
-import com.android.inputmethod.latin.makedict.FusionDictionary.PtNodeArray;
-import com.android.inputmethod.latin.makedict.ProbabilityInfo;
-import com.android.inputmethod.latin.makedict.WeightedString;
-import com.android.inputmethod.latin.makedict.WordProperty;
-import com.android.inputmethod.latin.utils.CombinedFormatUtils;
+import com.cipheros.inputmethod.latin.makedict.FormatSpec;
+import com.cipheros.inputmethod.latin.makedict.FormatSpec.DictionaryOptions;
+import com.cipheros.inputmethod.latin.makedict.FusionDictionary;
+import com.cipheros.inputmethod.latin.makedict.FusionDictionary.PtNodeArray;
+import com.cipheros.inputmethod.latin.makedict.ProbabilityInfo;
+import com.cipheros.inputmethod.latin.makedict.WeightedString;
+import com.cipheros.inputmethod.latin.makedict.WordProperty;
+import com.cipheros.inputmethod.latin.utils.CombinedFormatUtils;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

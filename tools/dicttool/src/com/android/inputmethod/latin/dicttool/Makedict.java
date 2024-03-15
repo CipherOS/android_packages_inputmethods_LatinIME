@@ -14,9 +14,9 @@
  * the License.
  */
 
-package com.android.inputmethod.latin.dicttool;
+package com.cipheros.inputmethod.latin.dicttool;
 
-import com.android.inputmethod.latin.makedict.UnsupportedFormatException;
+import com.cipheros.inputmethod.latin.makedict.UnsupportedFormatException;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

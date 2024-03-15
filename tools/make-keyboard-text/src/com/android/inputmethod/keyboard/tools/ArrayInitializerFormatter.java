@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard.tools;
+package com.cipheros.inputmethod.keyboard.tools;
 
 import java.io.PrintStream;
 

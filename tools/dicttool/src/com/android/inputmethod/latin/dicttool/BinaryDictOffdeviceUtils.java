@@ -14,17 +14,17 @@
  * the License.
  */
 
-package com.android.inputmethod.latin.dicttool;
+package com.cipheros.inputmethod.latin.dicttool;
 
-import com.android.inputmethod.latin.makedict.BinaryDictDecoderUtils;
-import com.android.inputmethod.latin.makedict.BinaryDictIOUtils;
-import com.android.inputmethod.latin.makedict.DictDecoder;
-import com.android.inputmethod.latin.makedict.DictionaryHeader;
-import com.android.inputmethod.latin.makedict.FormatSpec;
-import com.android.inputmethod.latin.makedict.FormatSpec.DictionaryOptions;
-import com.android.inputmethod.latin.makedict.FormatSpec.FormatOptions;
-import com.android.inputmethod.latin.makedict.FusionDictionary;
-import com.android.inputmethod.latin.makedict.UnsupportedFormatException;
+import com.cipheros.inputmethod.latin.makedict.BinaryDictDecoderUtils;
+import com.cipheros.inputmethod.latin.makedict.BinaryDictIOUtils;
+import com.cipheros.inputmethod.latin.makedict.DictDecoder;
+import com.cipheros.inputmethod.latin.makedict.DictionaryHeader;
+import com.cipheros.inputmethod.latin.makedict.FormatSpec;
+import com.cipheros.inputmethod.latin.makedict.FormatSpec.DictionaryOptions;
+import com.cipheros.inputmethod.latin.makedict.FormatSpec.FormatOptions;
+import com.cipheros.inputmethod.latin.makedict.FusionDictionary;
+import com.cipheros.inputmethod.latin.makedict.UnsupportedFormatException;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.common;
+package com.cipheros.inputmethod.latin.common;
 
-import com.android.inputmethod.annotations.UsedForTesting;
+import com.cipheros.inputmethod.annotations.UsedForTesting;
 
 import javax.annotation.Nonnull;
 

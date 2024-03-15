@@ -14,12 +14,12 @@
  * the License.
  */
 
-package com.android.inputmethod.latin.dicttool;
+package com.cipheros.inputmethod.latin.dicttool;
 
-import com.android.inputmethod.latin.makedict.FusionDictionary;
-import com.android.inputmethod.latin.makedict.FusionDictionary.PtNode;
-import com.android.inputmethod.latin.makedict.WeightedString;
-import com.android.inputmethod.latin.makedict.WordProperty;
+import com.cipheros.inputmethod.latin.makedict.FusionDictionary;
+import com.cipheros.inputmethod.latin.makedict.FusionDictionary.PtNode;
+import com.cipheros.inputmethod.latin.makedict.WeightedString;
+import com.cipheros.inputmethod.latin.makedict.WordProperty;
 
 import java.util.Arrays;
 import java.util.ArrayList;

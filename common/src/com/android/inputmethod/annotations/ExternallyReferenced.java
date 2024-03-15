@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.annotations;
+package com.cipheros.inputmethod.annotations;
 
 /**
  * Denotes that the class, method or field should not be eliminated by ProGuard,

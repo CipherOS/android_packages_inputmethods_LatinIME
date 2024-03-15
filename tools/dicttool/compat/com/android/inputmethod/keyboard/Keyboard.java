@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard;
+package com.cipheros.inputmethod.keyboard;
 
 @SuppressWarnings("unused")
 public class Keyboard {

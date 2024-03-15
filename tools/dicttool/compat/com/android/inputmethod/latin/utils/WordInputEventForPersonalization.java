@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.utils;
+package com.cipheros.inputmethod.latin.utils;
 
 public final class WordInputEventForPersonalization {
 }

@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package com.android.inputmethod.latin.common;
+package com.cipheros.inputmethod.latin.common;
 
 /**
  * Emojis are supplementary characters expressed as a low+high pair. For instance,

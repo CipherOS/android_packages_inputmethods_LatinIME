@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.makedict;
+package com.cipheros.inputmethod.latin.makedict;
 
-import com.android.inputmethod.latin.makedict.FormatSpec.DictionaryOptions;
-import com.android.inputmethod.latin.makedict.FusionDictionary.PtNodeArray;
+import com.cipheros.inputmethod.latin.makedict.FormatSpec.DictionaryOptions;
+import com.cipheros.inputmethod.latin.makedict.FusionDictionary.PtNodeArray;
 
 import junit.framework.TestCase;
 

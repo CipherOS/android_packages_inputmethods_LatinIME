@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.tools.edittextvariations;
+package com.cipheros.inputmethod.tools.edittextvariations;
 
 import android.os.Build;
 
-import com.android.inputmethod.tools.edittextvariations.R;
+import com.cipheros.inputmethod.tools.edittextvariations.R;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -14,18 +14,18 @@
  * the License.
  */
 
-package com.android.inputmethod.latin.dicttool;
+package com.cipheros.inputmethod.latin.dicttool;
 
-import com.android.inputmethod.latin.makedict.BinaryDictDecoderUtils;
-import com.android.inputmethod.latin.makedict.BinaryDictIOUtils;
-import com.android.inputmethod.latin.makedict.DictDecoder;
-import com.android.inputmethod.latin.makedict.DictEncoder;
-import com.android.inputmethod.latin.makedict.FormatSpec;
-import com.android.inputmethod.latin.makedict.FusionDictionary;
-import com.android.inputmethod.latin.makedict.MakedictLog;
-import com.android.inputmethod.latin.makedict.UnsupportedFormatException;
-import com.android.inputmethod.latin.makedict.Ver2DictEncoder;
-import com.android.inputmethod.latin.makedict.Ver4DictEncoder;
+import com.cipheros.inputmethod.latin.makedict.BinaryDictDecoderUtils;
+import com.cipheros.inputmethod.latin.makedict.BinaryDictIOUtils;
+import com.cipheros.inputmethod.latin.makedict.DictDecoder;
+import com.cipheros.inputmethod.latin.makedict.DictEncoder;
+import com.cipheros.inputmethod.latin.makedict.FormatSpec;
+import com.cipheros.inputmethod.latin.makedict.FusionDictionary;
+import com.cipheros.inputmethod.latin.makedict.MakedictLog;
+import com.cipheros.inputmethod.latin.makedict.UnsupportedFormatException;
+import com.cipheros.inputmethod.latin.makedict.Ver2DictEncoder;
+import com.cipheros.inputmethod.latin.makedict.Ver4DictEncoder;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
