@@ -7,7 +7,7 @@
         errorLine1="            return paint.hasGlyph(switzerland);"
         errorLine2="                         ~~~~~~~~">
         <location
-            file="packages/inputmethods/LatinIME/java/src/com.cipheros.inputmethod/keyboard/emoji/EmojiCategory.java"
+            file="packages/inputmethods/LatinIME/java/src/com/cipheros/inputmethod/keyboard/emoji/EmojiCategory.java"
             line="445"
             column="26"/>
     </issue>
@@ -18,7 +18,7 @@
         errorLine1="            return paint.hasGlyph(cheese);"
         errorLine2="                         ~~~~~~~~">
         <location
-            file="packages/inputmethods/LatinIME/java/src/com.cipheros.inputmethod/keyboard/emoji/EmojiCategory.java"
+            file="packages/inputmethods/LatinIME/java/src/com/cipheros/inputmethod/keyboard/emoji/EmojiCategory.java"
             line="461"
             column="26"/>
     </issue>
@@ -29,7 +29,7 @@
         errorLine1="        final UserManager userManager = context.getSystemService(UserManager.class);"
         errorLine2="                                                ~~~~~~~~~~~~~~~~">
         <location
-            file="packages/inputmethods/LatinIME/java/src/com.cipheros.inputmethod/compat/UserManagerCompatUtils.java"
+            file="packages/inputmethods/LatinIME/java/src/com/cipheros/inputmethod/compat/UserManagerCompatUtils.java"
             line="69"
             column="49"/>
     </issue>
@@ -38,7 +38,7 @@
         id="NewApi"
         message="Call requires API level 23 (current min is 21): `android.app.ActivityOptions#makeBasic`">
         <location
-            file="packages/inputmethods/LatinIME/java/src/com.cipheros.inputmethod/latin/LatinIME.java"
+            file="packages/inputmethods/LatinIME/java/src/com/cipheros/inputmethod/latin/LatinIME.java"
             line="1842"/>
     </issue>
 
@@ -46,7 +46,7 @@
         id="NewApi"
         message="Call requires API level 23 (current min is 21): `android.content.Context#getSystemService`">
         <location
-            file="packages/inputmethods/LatinIME/java/src/com.cipheros.inputmethod/latin/LatinIME.java"
+            file="packages/inputmethods/LatinIME/java/src/com/cipheros/inputmethod/latin/LatinIME.java"
             line="605"/>
     </issue>
 
@@ -54,7 +54,7 @@
         id="NewApi"
         message="Call requires API level 26 (current min is 21): `android.app.ActivityOptions#setLaunchDisplayId`">
         <location
-            file="packages/inputmethods/LatinIME/java/src/com.cipheros.inputmethod/latin/LatinIME.java"
+            file="packages/inputmethods/LatinIME/java/src/com/cipheros/inputmethod/latin/LatinIME.java"
             line="1842"/>
     </issue>
 
