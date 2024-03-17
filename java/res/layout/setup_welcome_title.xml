@@ -21,10 +21,16 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView
         android:id="@+id/setup_welcome_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
         style="@style/setupTitleStyle" />
     <TextView
         android:id="@+id/setup_welcome_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/setup_welcome_additional_description"
         android:layout_marginTop="@dimen/setup_welcome_description_top_margin"
+        android:gravity="center"
         style="@style/setupWelcomeDescritpionStyle" />
 </merge>
