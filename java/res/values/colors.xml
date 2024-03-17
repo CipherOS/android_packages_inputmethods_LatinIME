@@ -30,7 +30,7 @@
     <color name="auto_correct_color_lxx_light">#37474F</color>
     <color name="typed_word_color_lxx_light">#D937474F</color>
     <color name="suggested_word_color_lxx_light">#B337474F</color>
-    <color name="gesture_trail_color_lxx_light">#4DB6AC</color>
+    <color name="gesture_trail_color_lxx_light">#7e7ef7</color>
     <color name="sliding_key_input_preview_color_lxx_light">#B34DB6AC</color>
     <color name="key_background_lxx_light">#ECEFF1</color>
     <color name="key_background_pressed_lxx_light">#2637474F</color>
@@ -48,7 +48,7 @@
     <color name="auto_correct_color_lxx_dark">#FFFFFF</color>
     <color name="typed_word_color_lxx_dark">#D9FFFFFF</color>
     <color name="suggested_word_color_lxx_dark">#B3FFFFFF</color>
-    <color name="gesture_trail_color_lxx_dark">#80CBC4</color>
+    <color name="gesture_trail_color_lxx_dark">#7e7ef7</color>
     <color name="sliding_key_input_preview_color_lxx_dark">#B380CBC4</color>
     <color name="key_background_lxx_dark">#263238</color>
     <color name="key_background_pressed_lxx_dark">#19FFFFFF</color>
