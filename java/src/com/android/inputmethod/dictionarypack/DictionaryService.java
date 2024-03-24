@@ -216,27 +216,34 @@ public final class DictionaryService extends Service {
     /**
      * Setups an alarm to check for updates if an update is due.
      */
-    private static void checkTimeAndMaybeSetupUpdateAlarm(final Context context) {
-        // Of all clients, if the one that hasn't been updated for the longest
-        // is still more recent than UPDATE_FREQUENCY_MILLIS, do nothing.
-        if (!isLastUpdateAtLeastThisOld(context, UPDATE_FREQUENCY_MILLIS)) return;
+private static void checkTimeAndMaybeSetupUpdateAlarm(final Context context) {
+    // Of all clients, if the one that hasn't been updated for the longest
+    // is still more recent than UPDATE_FREQUENCY_MILLIS, do nothing.
+    if (!isLastUpdateAtLeastThisOld(context, UPDATE_FREQUENCY_MILLIS)) return;
 
-        PrivateLog.log("Date changed - registering alarm");
-        AlarmManager alarmManager = (AlarmManager)context.getSystemService(Context.ALARM_SERVICE);
+    PrivateLog.log("Date changed - registering alarm");
+    AlarmManager alarmManager = (AlarmManager)context.getSystemService(Context.ALARM_SERVICE);
 
-        // Best effort to wake between midnight and MAX_ALARM_DELAY_MILLIS in the morning.
-        // It doesn't matter too much if this is very inexact.
-        final long now = System.currentTimeMillis();
-        final long alarmTime = now + new Random().nextInt(MAX_ALARM_DELAY_MILLIS);
-        final Intent updateIntent = new Intent(DictionaryPackConstants.UPDATE_NOW_INTENT_ACTION);
-        final PendingIntent pendingIntent = PendingIntent.getBroadcast(context, 0,
-                updateIntent, PendingIntent.FLAG_CANCEL_CURRENT);
+    // Best effort to wake between midnight and MAX_ALARM_DELAY_MILLIS in the morning.
+    // It doesn't matter too much if this is very inexact.
+    final long now = System.currentTimeMillis();
+    final long alarmTime = now + new Random().nextInt(MAX_ALARM_DELAY_MILLIS);
+    final Intent updateIntent = new Intent(DictionaryPackConstants.UPDATE_NOW_INTENT_ACTION);
+    updateIntent.setPackage(context.getPackageName()); // Set the package name to ensure the PendingIntent is only delivered to trusted components
 
-        // We set the alarm in the type that doesn't forcefully wake the device
-        // from sleep, but fires the next time the device actually wakes for any
-        // other reason.
-        if (null != alarmManager) alarmManager.set(AlarmManager.RTC, alarmTime, pendingIntent);
+    final PendingIntent pendingIntent;
+    if (android.os.Build.VERSION.SDK_INT >= 23) {
+        pendingIntent = PendingIntent.getBroadcast(context, 0, updateIntent, PendingIntent.FLAG_IMMUTABLE);
+    } else {
+        pendingIntent = PendingIntent.getBroadcast(context, 0, updateIntent, PendingIntent.FLAG_CANCEL_CURRENT);
     }
+
+    // We set the alarm in the type that doesn't forcefully wake the device
+    // from sleep, but fires the next time the device actually wakes for any
+    // other reason.
+    if (null != alarmManager) alarmManager.set(AlarmManager.RTC, alarmTime, pendingIntent);
+}
+
 
     /**
      * Utility method to decide whether the last update is older than a certain time.
