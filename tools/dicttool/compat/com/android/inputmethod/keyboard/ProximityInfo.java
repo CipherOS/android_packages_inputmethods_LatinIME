@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard;
+package com.cipheros.inputmethod.keyboard;
 
 public class ProximityInfo {
     public long getNativeProximityInfo() { return 0l; }

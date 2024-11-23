@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.tools.edittextvariations;
+package com.cipheros.inputmethod.tools.edittextvariations;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

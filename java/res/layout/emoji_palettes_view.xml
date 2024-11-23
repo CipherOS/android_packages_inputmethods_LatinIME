@@ -18,7 +18,7 @@
 */
 -->
 
-<com.android.inputmethod.keyboard.emoji.EmojiPalettesView
+<com.cipheros.inputmethod.keyboard.emoji.EmojiPalettesView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical" />
-    <com.android.inputmethod.keyboard.emoji.EmojiCategoryPageIndicatorView
+    <com.cipheros.inputmethod.keyboard.emoji.EmojiCategoryPageIndicatorView
         android:id="@+id/emoji_category_page_id_view"
         android:layout_width="match_parent"
         android:layout_height="2dip" />
@@ -120,4 +120,4 @@
             android:soundEffectsEnabled="false"
             android:contentDescription="@string/spoken_description_delete" />
     </LinearLayout>
-</com.android.inputmethod.keyboard.emoji.EmojiPalettesView>
+</com.cipheros.inputmethod.keyboard.emoji.EmojiPalettesView>

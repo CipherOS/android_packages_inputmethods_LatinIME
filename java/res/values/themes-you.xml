@@ -87,9 +87,9 @@
         <!-- A negative value to disable text shadow layer. -->
         <item name="languageOnSpacebarTextShadowRadius">-1.0</item>
     </style>
-    <!-- Though {@link com.android.inputmethod.keyboard.emoji.EmojiPalettesView} doesn't extend
-         {@link com.android.inputmethod.keyboard.KeyboardView}, some views inside it, for instance
-         delete button, need themed {@link com.android.inputmethod.keyboard.KeyboardView}
+    <!-- Though {@link com.cipheros.inputmethod.keyboard.emoji.EmojiPalettesView} doesn't extend
+         {@link com.cipheros.inputmethod.keyboard.KeyboardView}, some views inside it, for instance
+         delete button, need themed {@link com.cipheros.inputmethod.keyboard.KeyboardView}
          attributes. -->
     <style
         name="EmojiPalettesView.You"

@@ -37,5 +37,5 @@ java_binary_host {
         "latinime-common",
     ],
     required: ["libjni_latinime"],
-    main_class: "com.android.inputmethod.latin.dicttool.Dicttool",
+    main_class: "com.cipheros.inputmethod.latin.dicttool.Dicttool",
 }
